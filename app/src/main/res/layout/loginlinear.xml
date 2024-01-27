@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:text="Đăng Nhập"
+        android:textSize="25dp" />
+
+    <EditText
+        android:id="@+id/bt2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv"
+        android:layout_centerInParent="true"
+        android:hint="Username"
+        android:minHeight="48dp"
+        android:textSize="15dp"
+        tools:ignore="TextSizeCheck" />
+
+    <EditText
+        android:id="@+id/bt3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/bt2"
+        android:layout_centerInParent="true"
+        android:hint="Passwords"
+        android:minHeight="48dp"
+        android:textSize="15dp"
+        tools:ignore="TextSizeCheck" />
+
+    <LinearLayout
+        android:id="@+id/line1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/bt3"
+        android:orientation="horizontal"
+        android:layout_centerInParent="true">
+
+        <Button
+            android:background="@drawable/mybutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Đăng nhập" />
+        <Button
+            android:background="@drawable/mybutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Quên MK"
+            android:layout_marginStart="16dp" />
+
+        <Button
+            android:background="@drawable/mybutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Trợ Giúp"
+            android:layout_marginStart="16dp" />
+
+
+    </LinearLayout>
+
+</RelativeLayout>

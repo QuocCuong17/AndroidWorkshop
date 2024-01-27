@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">WorkShop</string>
+    <string-array name="phep">
+        <item>+</item>
+        <item>-</item>
+        <item>x</item>
+        <item>:</item>
+    </string-array>
+    <string-array name="tech">
+        <item>Android</item>
+        <item>IOS</item>
+        <item>Windowphone</item>
+        <item>Macbook</item>
+        <item>Java</item>
+        <item>Asus</item>
+    </string-array>
+
+</resources>
